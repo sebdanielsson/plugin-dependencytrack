@@ -2,6 +2,43 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.3.0](https://github.com/sebdanielsson/plugin-dependencytrack/compare/v0.3.3...v0.3.0) (2026-04-12)
+
+
+### ⚠ BREAKING CHANGES
+
+* updates to support Backstage version 1.27.5 ([#87](https://github.com/sebdanielsson/plugin-dependencytrack/issues/87))
+
+### Features
+
+* added ability to test locally using mock data. ([39631ec](https://github.com/sebdanielsson/plugin-dependencytrack/commit/39631ec7ef64fdfc998d940e98e06a470b7d530a))
+* added overviewpage ([3d7b4df](https://github.com/sebdanielsson/plugin-dependencytrack/commit/3d7b4dff8abea9b59bac1b26cf96cf4c6ab35a89))
+* added overviewpage ([164f181](https://github.com/sebdanielsson/plugin-dependencytrack/commit/164f181086ab2ef5ee27b53643e9a346ace1b6a5))
+* added release-please statements to workflow ([54a6413](https://github.com/sebdanielsson/plugin-dependencytrack/commit/54a64133078208390001135e6907b931348ae443))
+
+
+### Bug Fixes
+
+* `release-please` action now makes use of the default `secrets.GITHUB_TOKEN`. ([c852c90](https://github.com/sebdanielsson/plugin-dependencytrack/commit/c852c90d4185409af2cccf111892406f88d4c45f))
+* **ci:** add corepack enable for yarn 4 compatibility in npm publish workflow ([2ac17d1](https://github.com/sebdanielsson/plugin-dependencytrack/commit/2ac17d16a0f8411400546e80fbf44f684d6f2745))
+* **ci:** add corepack enable for yarn 4 compatibility in npm publish workflow ([fb59bc9](https://github.com/sebdanielsson/plugin-dependencytrack/commit/fb59bc953cf42543637cd3ca0d66c3ababd162bc))
+* **documentation:** README.MD indent annotation ([91097e3](https://github.com/sebdanielsson/plugin-dependencytrack/commit/91097e3cb7899b60cf75b91c27b4ceb2a796fa9a))
+* **documentation:** README.MD indent annotation ([1ee1c47](https://github.com/sebdanielsson/plugin-dependencytrack/commit/1ee1c47153e9f3efe28dd3a72dccb23f0be64e30))
+* fixed all tsc warnings and errors. ([39631ec](https://github.com/sebdanielsson/plugin-dependencytrack/commit/39631ec7ef64fdfc998d940e98e06a470b7d530a))
+* fixed trigger for when to build new npm package ([d51ce68](https://github.com/sebdanielsson/plugin-dependencytrack/commit/d51ce68e98eff61a086b134e4a92f815df07f233))
+* let release-please use my token as GH actions don't trigger other GH actions ([3cdecf4](https://github.com/sebdanielsson/plugin-dependencytrack/commit/3cdecf48f7797c66f0e2a9a9ccbc9fc86d15b0c2))
+* **pkg:** add backstage.pluginId required by backstage-cli prepack ([fb75cf6](https://github.com/sebdanielsson/plugin-dependencytrack/commit/fb75cf6d6f7563f1ece1757963d62da3e4c7f8e8))
+* **pkg:** add backstage.pluginId required by backstage-cli prepack ([626bc79](https://github.com/sebdanielsson/plugin-dependencytrack/commit/626bc79d33716541209db2075fa856927d09de86))
+* **pkg:** add pluginPackages and sideEffects via backstage-cli repo fix ([4d22c5a](https://github.com/sebdanielsson/plugin-dependencytrack/commit/4d22c5af7a93279a24aa53bf0fb508979dd3c9b6))
+* **pkg:** add pluginPackages and sideEffects via backstage-cli repo fix --publish ([5003a4b](https://github.com/sebdanielsson/plugin-dependencytrack/commit/5003a4b169f32485485dfe68b579060911cd5325))
+* updated the readme with new configuration settings. ([4715db4](https://github.com/sebdanielsson/plugin-dependencytrack/commit/4715db4ec49b7780cbc55c99775d95394d580138))
+* updates to support Backstage version 1.27.5 ([#87](https://github.com/sebdanielsson/plugin-dependencytrack/issues/87)) ([39631ec](https://github.com/sebdanielsson/plugin-dependencytrack/commit/39631ec7ef64fdfc998d940e98e06a470b7d530a))
+
+
+### Miscellaneous Chores
+
+* updated project to make use of Yarn 3.8.2. ([39631ec](https://github.com/sebdanielsson/plugin-dependencytrack/commit/39631ec7ef64fdfc998d940e98e06a470b7d530a))
+
 ## [0.3.3](https://github.com/TRIMM/plugin-dependencytrack/compare/v0.3.2...v0.3.3) (2026-03-27)
 
 
